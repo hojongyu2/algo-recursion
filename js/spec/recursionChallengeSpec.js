@@ -7,4 +7,3 @@ describe("flatten", function() {
 });
 
 // use the specs from the previous exercises to test the rest of the methods.
-// This time, however, write your tests using jasmine.
