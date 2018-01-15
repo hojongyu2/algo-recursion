@@ -19,7 +19,18 @@ Recursion has a time and place in programming, but the fact of the matter is tha
 
 ## Challenge
 
-To run the tests for JS, we will be using Jasmine.  To install jasmine, run <br> npm install jasmine -g <br> and then run your spec file with the command jasmine FILENAME instead of node FILENAME
+To run the tests for JS, we will be using Jasmine.  To install jasmine, run:
+```bash
+npm install jasmine -g
+```
+
+Then run your spec file with the command:
+
+```bash
+jasmine FILENAME
+```
+
+(Instead of `node FILENAME`)
 
 We have executed several exercises iteratively last week. Today we are going to revisit some of those exercises and rewrite them recursively.
 
