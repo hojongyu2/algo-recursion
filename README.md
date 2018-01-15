@@ -44,6 +44,4 @@ Implement the following exercises recursively:
 
 4. Roman Numerals
 
-New Challenge
-
 5. Rewrite the `#flatten` method
