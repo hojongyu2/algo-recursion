@@ -13,7 +13,3 @@ exports.bottles = function() {
 exports.romanNum = function() {
 
 };
-
-exports.flatten = function() {
-
-};

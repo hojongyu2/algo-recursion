@@ -8,8 +8,7 @@ From the [Wikipedia entry on Divide and Conquer Algorithms](http://en.wikipedia.
 
 Recursion has a time and place in programming, but the fact of the matter is that any problem you can solve recursively you can also iteratively. In real life, you probably won't end up using recursion all that often, but sometimes recursion can lead to code that reads much cleaner than a giant 100-line method.
 
-## Considerations
-
+## Things to think about
 * Why is recursion a useful technique for solving a big problem?
 * What are the limitations of using recursive solutions?
 * What types of problems are more suited for simple loops than recursion?
@@ -17,31 +16,24 @@ Recursion has a time and place in programming, but the fact of the matter is tha
 * What is a "stack overflow" (the concept, not the website)?
 * Why is that relevant to a recursive problem?
 
-## Challenge
-
-To run the tests for JS, we will be using Jasmine.  To install jasmine, run:
-```bash
-npm install jasmine -g
-```
-
-Then run your spec file with the command:
-
-```bash
-jasmine FILENAME
-```
-
-(Instead of `node FILENAME`)
-
+## Challenges
 We have executed several exercises iteratively last week. Today we are going to revisit some of those exercises and rewrite them recursively.
 
 Implement the following exercises recursively:
 
 1. Factorial
-
 2. Palindrome
-
 3. 99 bottles
-
 4. Roman Numerals
 
-5. Rewrite the `#flatten` method
+We're going to use [Jasmine](https://jasmine.github.io/) for testing Javascript as it's one of the more popular JS testing libraries. To install it, run:
+
+```bash
+npm install jasmine -g
+```
+
+Then run your spec file with the command (Instead of `node FILENAME`):
+
+```bash
+jasmine FILENAME
+```

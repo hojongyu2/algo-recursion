@@ -9,6 +9,3 @@ def bottles(num):
 
 def roman_num(num):
 	pass
-
-def flatten(array):
-	pass

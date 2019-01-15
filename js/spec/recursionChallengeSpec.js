@@ -1,9 +1,8 @@
-var rc = require(".././recursionChallenge");
+// Below is an example of Jasmine. Use the specs and the example below to test your code.
+const rc = require(".././recursionChallenge");
 
-describe("flatten", function() {
-  it("flatten should take in a multi-demensional array and return a one-dimensional array", function() {
-    expect(rc.flatten([[1,2],[3,4]])).toEqual([1,2,3,4]);
+describe("toRoman", function() {
+  it("toRoamn should take in an arabic number a return a string with its roman numeral counterpart", function() {
+    expect(rc.romanNum(toRoman(12))).toEqual('XII');
   });
 });
-
-// use the specs from the previous exercises to test the rest of the methods.
