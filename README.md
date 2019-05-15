@@ -25,15 +25,3 @@ Implement the following exercises recursively:
 2. Palindrome
 3. 99 bottles
 4. Roman Numerals
-
-We're going to use [Jasmine](https://jasmine.github.io/) for testing Javascript as it's one of the more popular JS testing libraries. To install it, run:
-
-```bash
-npm install jasmine -g
-```
-
-Then run your spec file with the command (Instead of `node FILENAME`):
-
-```bash
-jasmine FILENAME
-```
